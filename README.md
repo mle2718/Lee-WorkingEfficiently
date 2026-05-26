@@ -44,8 +44,7 @@ Who doesn't like a little extra? Here are some resources on Git and Github:
 1. https://sethrobertson.github.io/GitFixUm/fixup.html : how to undo things in git
 2. https://rewind.com/blog/recovering-deleted-files-in-github): how to recover deleted files.
 3. [Why bother with git](https://www.youtube.com/watch?v=eWxxfttcMts)
-4. [Using Git with Rstudio](https://cfss.uchicago.edu/setup/git-with-rstudio/) 
-5. [Even more on Github with Rstudio](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/)
+4. [Even more on Github with Rstudio](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/)
 
 ## Dealing with Merge Conflicts
 When merging Branch B <- Branch new_feature, there are sometimes merge conflicts. This happens when code has changed in both-- git cannot possibly know which to keep.  I recommend using Github Desktop or the command line to deal with merge conflicts. The reason not to use Github's web interface is because github merges Branch new_feature <-Branch B when it resolves the conflicts. You may or may not want to do this. Resolving merge conflicts is probably the scariest part of using git, so ask for help if you are unsure of what to do.
